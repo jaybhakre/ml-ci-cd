@@ -7,7 +7,7 @@ X, y = load_iris(return_X_y=True)
 accuracy = model.score(X, y)
 print("MODEL_ACCURACY =", accuracy)
 
-if accuracy < 0.8:
+if accuracy < 0.99:
     raise Exception("Model accuracy too low")
 
 
