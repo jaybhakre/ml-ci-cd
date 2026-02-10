@@ -21,3 +21,8 @@ jobs:
 
       - name: Evaluate model
         run: python evaluate.py
+
+      - name: Run Flask App (demo)
+        run: echo "Model is ready for deployment"
+
+  deploy:
