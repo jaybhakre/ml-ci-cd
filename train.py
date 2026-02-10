@@ -7,5 +7,5 @@ X, y = load_iris(return_X_y=True)
 model = LogisticRegression(max_iter=200)
 model.fit(X, y)
 
-joblib.dump(model, "model.pkl")
+joblib.dump(model, "model.pkl")  # Save the trained model to a file
 print("Model trained and saved")
