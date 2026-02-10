@@ -9,3 +9,6 @@ print("MODEL_ACCURACY =", accuracy)
 
 if accuracy < 0.8:
     raise Exception("Model accuracy too low")
+
+
+
